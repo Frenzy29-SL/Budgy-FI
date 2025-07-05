@@ -1,11 +1,9 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Landing Page Specific Styles */
 body.landing {
     overflow: hidden;
     font-family: 'Dongle', sans-serif;
@@ -45,8 +43,6 @@ body.landing {
     color: white;
     margin-bottom: 1.5rem;
 }
-
-/* Gradient Background Animation */
 .gradient-bg {
     position: fixed;
     top: 0;
@@ -63,7 +59,6 @@ body.landing {
     height: 100%;
 }
 
-/* Dashboard Specific Styles */
 body:not(.landing) {
     background-color: #f5f5f5;
     font-family: 'Raleway', sans-serif;
@@ -79,11 +74,6 @@ body:not(.landing) {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     padding: 2rem;
 }
-
-/* Keep all your existing dashboard styles below */
-/* ... (rest of your original CSS styles) ... */
-
-/* Gradient Animation Variables */
 :root {
     --color-bg1: rgb(108, 0, 162);
     --color-bg2: rgb(0, 17, 82);
@@ -96,7 +86,7 @@ body:not(.landing) {
     --circle-size: 150%;
     --blending: soft-light;
 }
-/* Dashboard Specific Updates */
+
 .container {
     position: relative;
     z-index: 100;
@@ -150,7 +140,6 @@ input {
     font-size: 1.2rem;
 }
 
-/* Text Size Increases */
 #budget {
     font-size: 2.2rem;
     margin: 1rem 0;
@@ -161,7 +150,3 @@ input {
     font-size: 1.2rem;
     padding: 0.8rem 0;
 }
-
-/* Gradient Blobs Animation */
-/* Include all your gradient animation keyframes and blob styles here */
-/* ... (your provided gradient animation CSS) ... */
