@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Initialize budget input
+    // this will initialize budget input
     if (document.getElementById("budget")) {
         document.getElementById("budget-input").value = 7456;
     }
     
-    // Add interactive background effect
+    // this will add interactive background effect
     const interactive = document.querySelector(".interactive");
     document.addEventListener("mousemove", (e) => {
         interactive.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
@@ -26,8 +26,7 @@ function addExpense() {
     li.innerHTML = `${name} - $${amount} <button class="delete-btn" onclick="this.parentElement.remove()">X</button>`;
     
     document.getElementById("expense-list").appendChild(li);
-    
-    // Clear inputs
+
     document.getElementById("expense-name").value = "";
     document.getElementById("expense-amount").value = "";
 }
@@ -44,7 +43,6 @@ function addReminder() {
     
     document.getElementById("reminder-list").appendChild(li);
     
-    // Clear inputs
     document.getElementById("reminder-name").value = "";
     document.getElementById("reminder-date").value = "";
     document.getElementById("reminder-amount").value = "";
